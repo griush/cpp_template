@@ -1,0 +1,15 @@
+# Binaries
+bin/
+bin-int/
+
+# Visual Studio Generated
+.vscode/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Makefiles
+Makefile
+*.make
