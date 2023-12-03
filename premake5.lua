@@ -8,7 +8,7 @@ project "Project_Name"
     targetdir "bin/%{cfg.buildcfg}/%{prj.name}"
     objdir "bin-int/%{cfg.buildcfg}/%{prj.name}"
 
-    files { "**.h", "**.cpp" }
+    files { "include/**.h", "src/**.cpp" }
 
     includedirs {
         "include"
