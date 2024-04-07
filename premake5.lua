@@ -20,11 +20,11 @@ project "Project_Name"
         optimize "Off"
         symbols "On"
 
-    filter "configurations:Distribution"
+    filter "configurations:Development"
         defines { "DEV" }
         runtime "Release"
         optimize "On"
-        symbols "Off"
+        symbols "On"
 
     filter "configurations:Distribution"
         defines { "DIST" }
